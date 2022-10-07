@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 img {
     width: 100%;
@@ -16,7 +17,10 @@ img {
     max-width: 500px;
     border: 1px solid #000;
     overflow-y: scroll;
-    overflow-x: hidden;
+    scrollbar-width: none;
+}
+.center::-webkit-scrollbar { 
+    display: none;
 }
 .name, .heading {
     text-align: center;
