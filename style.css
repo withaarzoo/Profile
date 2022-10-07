@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 img {
-    width: 500px;
+    width: 100%;
+    object-fit: contain;
 }
 .center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    height: 90vh;
+    max-width: 500px;
+    border: 1px solid #000;
 }
