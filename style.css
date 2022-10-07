@@ -35,3 +35,7 @@ ul li {
     list-style: none;
     margin-bottom: 10px;
 }
+.profession {
+    margin: 0 20px;
+    font-size: 20px;
+}
