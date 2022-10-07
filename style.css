@@ -1,35 +1,37 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 img {
-    width: 100%;
-    object-fit: contain;
+  width: 100%;
+  object-fit: contain;
 }
 .center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 90vh;
-    max-width: 500px;
-    border: 1px solid #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: max-content;
+  max-width: 500px;
+  border: 1px solid #000;
 }
-.name, .heading {
-    text-align: center;
-    font-size: 30px;
-    margin: 20px;
+.name,
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
 }
-.description, .education {
-    margin: 0px 20px;
-    font-size: 20px;
+.description,
+.education {
+  margin: 0px 20px;
+  font-size: 20px;
 }
 .education {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 ul li {
-    text-align: center;
-    list-style: none;
-    margin-bottom: 10px;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 10px;
 }
