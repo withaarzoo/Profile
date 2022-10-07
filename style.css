@@ -28,3 +28,8 @@ img {
 .education {
     padding-top: 20px;
 }
+ul li {
+    text-align: center;
+    list-style: none;
+    margin-bottom: 10px;
+}
